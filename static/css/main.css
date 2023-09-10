@@ -11850,9 +11850,8 @@ input[type=email]::placeholder {
 }
 
 
-.education__description,
-.experience__date {
-    font-size: 12px;
+.education__description {
+    font-size: 14px;
     font-weight: 300;
     color: #333;
     z-index: 2;
@@ -11901,17 +11900,23 @@ html body {
 
 .experience__title {
     position: relative;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     z-index: 2
 }
 
-@media (min-width:992px) {
+/* @media (min-width:992px) {
     .experience__title {
         font-size: 24px
     }
-}
+} */
 
+.experience__description {
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    z-index: 2
+}
 .experience__company {
     font-size: 14px;
     font-weight: 700;
