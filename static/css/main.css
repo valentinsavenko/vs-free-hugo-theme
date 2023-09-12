@@ -4,6 +4,10 @@ address {
     font-style: normal
 }
 
+:root {
+    --theme-color:rgba(3, 117, 28, 0.852);
+}
+
 .breadcrumb-item+.breadcrumb-item:hover::before,
 .btn-link,
 .btn:hover,
@@ -960,7 +964,9 @@ pre code {
 }
 
 code {
-    color: #e83e8c;
+    /* color: #e83e8c; */
+    color: var(--theme-color);
+
     word-break: break-word
 }
 
@@ -11817,7 +11823,7 @@ input[type=email]::placeholder {
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: start;
-    align-items: flex-start;
+    align-items: flex-start;  
     min-height: 131px
 }
 
@@ -11920,7 +11926,8 @@ html body {
 .experience__company {
     font-size: 14px;
     font-weight: 700;
-    color: #e93e34
+    /* color: #e93e34 */
+    color: var(--theme-color);
 }
 
 .clients {
@@ -12024,7 +12031,8 @@ html body {
 .testimonial__author-info span {
     font-size: 14px;
     font-weight: 700;
-    color: #e93e34
+    /* color: #e93e34*/
+    color: var(--theme-color);
 }
 
 html {
@@ -12042,12 +12050,14 @@ html body {
 }
 
 html body ::-moz-selection {
-    background-color: #e93e34;
+    /* background-color: #e93e34; */
+    background-color: var(--theme-color);
     color: #fff
 }
 
 html body ::selection {
-    background-color: #e93e34;
+    /* background-color: #e93e34; */
+    background-color: var(--theme-color);
     color: #fff
 }
 
@@ -12339,7 +12349,8 @@ textarea:focus {
     font-size: 25px;
     font-weight: 900;
     letter-spacing: -1.17px;
-    color: #e93e34
+    /* color: #e93e34 */
+    color: var(--theme-color);
 }
 
 @media (min-width:768px) {
